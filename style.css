@@ -1,0 +1,32 @@
+.box {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 150px;
+  height: 500px;
+}
+.figure {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.figure-1 {
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  background: #83a7e7cc;
+}
+.figure-2 {
+  background: yellow;
+  top: 11%;
+  right: 52%;
+  transform: rotate(15deg);
+}
+.figure-3 {
+  background: red;
+  top: 11%;
+  left: 52%;
+  transform: rotate(-15deg);
+}

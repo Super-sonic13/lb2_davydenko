@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ЛБ-2</title>
+    <style>
+      table {
+        border: 1px solid black;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+      tr {
+        transition: all 0.3s ease 0s;
+      }
+      tr:first-child {
+        background-color: #338f8f;
+        color: #ff630a;
+      }
+
+      tr:first-child:hover {
+        background-color: #ff630a;
+        color: #338f8f;
+      }
+
+      tr:nth-child(2) {
+        background-color: #f5f533;
+        color: #6209e0;
+      }
+
+      tr:nth-child(2):hover {
+        background-color: #6209e0;
+        color: #f5f533;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td rowspan="2">Давиденко</td>
+        <td>Софія</td>
+        <td colspan="2" rowspan="2">Олександрівна</td>
+      </tr>
+
+      <tr>
+        <td>ІП-з11, ЛР-2 Варіант-8</td>
+      </tr>
+
+      <tr>
+        <td>Ячейка</td>
+        <td>Ячейка</td>
+        <td>Ячейка</td>
+        <td>Ячейка</td>
+      </tr>
+      <tr>
+        <td>Ячейка</td>
+        <td>Ячейка</td>
+        <td colspan="2">Ячейка</td>
+      </tr>
+    </table>
+    <div class="box">
+      <div class="figure figure-1"></div>
+      <div class="figure figure-2"></div>
+      <div class="figure figure-3"></div>
+    </div>
+  </body>
+</html>
